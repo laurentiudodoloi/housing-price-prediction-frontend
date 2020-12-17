@@ -1,9 +1,9 @@
 <template>
-  
-    
+
+
     <v-app>
       <v-content>
-     
+
  <v-app-bar app dark color="blue">
       <v-toolbar-title>Vue Login</v-toolbar-title>
       <v-spacer></v-spacer>
@@ -16,14 +16,14 @@
     <router-view></router-view>
     </v-content>
     </v-app>
-  
+
 </template>
 
 <script>
 export default {
   components:{
-    
-    
+
+
   }
 }
 </script>
