@@ -4,7 +4,9 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import vuetify from './plugins/vuetify'
 import Vuex from 'vuex'
+import VueLocalStorage from 'vue-localstorage'
 
+Vue.use(VueLocalStorage)
 Vue.use(VueRouter)
 Vue.use(Vuex)
 

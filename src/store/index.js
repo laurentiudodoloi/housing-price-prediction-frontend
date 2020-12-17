@@ -5,7 +5,9 @@ import actions from "./actions";
 import cart from './modules/cart'
 import auth from './modules/auth'
 
-const state = {}
+const state = {
+    products: []
+}
 
 export default {
     state,
